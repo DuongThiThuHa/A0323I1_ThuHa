@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo layout với RWD</title>
+</head>
+
+<style>
+    header {
+        font-family: "Times New Roman";
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        background-color: gray;
+        border: 1px solid #CDCDCD;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: gray;
+    }
+
+    li {
+        /*
+                cac phan tu deu nam ngang
+        */
+        float: left;
+        margin: 20px;
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+        margin-left: 900px;
+        text-align: right;
+    }
+
+    .body_left {
+        background: #CDCDCD;
+        width: 10%;
+        min-height: 600px;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .body_right {
+        background: #CDCDCD;
+        width: 10%;
+        min-height: 600px;
+        float: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        width: 70%;
+        height: 50px;
+        margin: 20px;
+    }
+
+    .body_between {
+        color: black;
+        width: 80%;
+        min-height: 400px;
+        float: left;
+        text-align: left;
+    }
+
+    footer {
+        font-family: "Times New Roman";
+        width: 100%;
+        height: 80px;
+        margin: 600px;
+        margin-left: 0;
+        background-color: gray;
+        border: 1px solid #CDCDCD;
+        text-align: center;
+    }
+</style>
+
+
+<body>
+<ul>
+    <li>Logo</li>
+    <li>Home</li>
+    <li>About</li>
+    <li>Project</li>
+    <li>Contact</li>
+    <li><img src="https://cdn1.iconfinder.com/data/icons/heroicons-ui/24/logout-1024.png"></li>
+    <li>Login</li>
+</ul>
+</header>
+
+<div class="body_left">
+    <span>Link</span>
+    <span>Link</span>
+    <span>Link</span>
+    <span>Link</span>
+</div>
+
+<div class="body_between">
+    <h2>Welcome</h2>
+    <hr>
+    <h1>Test</h1>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aperiam blanditiis cumque ex exercitationem
+    facilis illo ipsa ipsam ipsum iusto, laudantium odit optio voluptatum. Ducimus exercitationem labore necessitatibus
+    officiis repudiandae!
+</div>
+
+<div class="body_right">
+    <button>ADS</button>
+    <button>ADS</button>
+</div>
+
+
+<footer>
+    <p>&Footer Text</p>
+</footer>
+</body>
+</html>
