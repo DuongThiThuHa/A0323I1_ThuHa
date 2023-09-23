@@ -1,4 +1,4 @@
-package com.example.ss9;
+package com.example.webapplication;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -10,7 +10,7 @@ import java.io.PrintWriter;
 public class DiscountServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        response.sendRedirect("index.jsp");
     }
 
     @Override
@@ -19,14 +19,15 @@ public class DiscountServlet extends HttpServlet {
         double percent = Float.parseFloat(request.getParameter("percent"));
 
         double amount = price * percent * 0.01;
-        double discountPrice = price + amount;
+        double total = price + amount;
 
         PrintWriter writer = response.getWriter();
         writer.println("<html>");
-        writer.println("<p>Price: " + price + "</p>");
-        writer.println("<p>Percent: " + percent + "</p>");
-        writer.println("<p>Discount Amount: " + amount + "</p>");
-        writer.println("<p>Discount Price: " + discountPrice + "</p>");
+        writer.println("<h4>List Price: " + price + "</h4>");
+        writer.println("<h4>Discount Percent: " + percent + "</h4>");
+        writer.println("<h4>Discount Amount: " + amount + "</h4>");
+        writer.println("<h4>Discount Price: " + total + "</h4>");
         writer.println("</html>");
+
     }
 }

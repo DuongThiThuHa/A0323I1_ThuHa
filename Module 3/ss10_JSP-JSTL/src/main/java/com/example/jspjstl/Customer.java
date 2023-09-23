@@ -1,12 +1,12 @@
-package com.example.ss10;
+package com.example.jspjstl;
 
-public class Customers {
+public class Customer {
     private int code;
     private String name;
     private String dateOfBirth;
     private String address;
 
-    public Customers(int code, String name, String dateOfBirth, String address) {
+    public Customer(int code, String name, String dateOfBirth, String address) {
         this.code = code;
         this.name = name;
         this.dateOfBirth = dateOfBirth;
@@ -44,6 +44,4 @@ public class Customers {
     public void setAddress(String address) {
         this.address = address;
     }
-
-
 }
