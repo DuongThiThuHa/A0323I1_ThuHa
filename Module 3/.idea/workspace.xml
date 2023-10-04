@@ -5,38 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2951044-d372-442f-bd0a-752f90337718" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_mvc/src/main/java/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_mvc/src/main/webapp/view/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_JSP &amp; JSTL/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_JSP &amp; JSTL/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_JSP &amp; JSTL/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_JSP &amp; JSTL/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_JSP &amp; JSTL/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_JSP &amp; JSTL/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_JSP &amp; JSTL/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_JSP &amp; JSTL/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_JSP &amp; JSTL/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_JSP &amp; JSTL/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_JSP &amp; JSTL/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_JSP &amp; JSTL/src/main/java/com/example/ss10/Customers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_JSP &amp; JSTL/src/main/java/com/example/ss10/CustomersServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_JSP &amp; JSTL/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_JSP &amp; JSTL/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_JSP &amp; JSTL/src/main/webapp/list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_Web Application/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_Web Application/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_Web Application/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_Web Application/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_Web Application/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_Web Application/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_Web Application/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_Web Application/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_Web Application/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_Web Application/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_Web Application/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_Web Application/src/main/java/com/example/ss9/DiscountServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_Web Application/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss9_Web Application/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss10_JSP-JSTL/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss10_JSP-JSTL/.idea/gradle.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/CodeGym/Assignments/Module 3",
+    "last_opened_file_path": "D:/CodeGym/Assignments/Module 3/customer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -180,6 +154,8 @@
       <updated>1695448742013</updated>
       <workItem from="1695448742888" duration="782000" />
       <workItem from="1695481196472" duration="124000" />
+      <workItem from="1695582453985" duration="13000" />
+      <workItem from="1695823830252" duration="21000" />
     </task>
     <servers />
   </component>
