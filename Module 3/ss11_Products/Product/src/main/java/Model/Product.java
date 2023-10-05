@@ -1,19 +1,23 @@
 package Model;
 
+import java.util.Date;
+
 public class Product {
     private int id;
-    private String productName;
-    private double price;
-    private String description;
+    private String name;
+    private int quantity;
+    private long price;
+    private Date dateRelease;
 
-    public Product() {
+    public Product(int id, String name, int quantity, long price, Date dateRelease) {
+        this.id = id;
+        this.name = name;
+        this.quantity = quantity;
+        this.price = price;
+        this.dateRelease = dateRelease;
     }
 
-    public Product(int id, String productName, double price, String description) {
-        this.id = id;
-        this.productName = productName;
-        this.price = price;
-        this.description = description;
+    public Product() {
     }
 
     public int getId() {
@@ -24,28 +28,35 @@ public class Product {
         this.id = id;
     }
 
-    public String getProductName() {
-        return productName;
+    public String getName() {
+        return name;
     }
 
-    public void setProductName(String productName) {
-        this.productName = productName;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public double getPrice() {
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public long getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(long price) {
         this.price = price;
     }
 
-    public String getDescription() {
-        return description;
+    public Date getDateRelease() {
+        return dateRelease;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setDateRelease(Date dateRelease) {
+        this.dateRelease = dateRelease;
     }
 }
-
