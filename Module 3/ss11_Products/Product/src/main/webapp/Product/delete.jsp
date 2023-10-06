@@ -1,16 +1,21 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: ASUS
-  Date: 06/10/2023
-  Time: 5:34 SA
-  To change this template use File | Settings | File Templates.
---%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>Delete Product</title>
+</head>
+<body>
+<h1>Delete Product</h1>
+<form action="/product" method="post">
+    <label for="product">ID</label>
+    <select name="productID" id="product">
+        <c:forEach items="${products}" var="e">
+            <option value="${e.id}">${e.id}: ${e.name}</option>
+        </c:forEach>
+    </select>
+    <input type="submit" value="Delete">
+    <input type="hidden" name="action" value="delete">
+</form>
+<a href="/product">Return to show list</a>
+</body>
 </html>
