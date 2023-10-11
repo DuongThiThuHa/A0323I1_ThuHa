@@ -5,12 +5,12 @@
     <title>Create new Product</title>
 </head>
 <body>
-<h1>Create new product</h1>
+<h1>Create product</h1>
 <form action="/product" method="post">
     <table>
         <tr>
             <td>ID</td>
-            <td><input type="text" name="id"/></td>
+            <td><input type="number" name="id"/></td>
         </tr>
         <tr>
             <td>Name</td>
@@ -18,7 +18,7 @@
         </tr>
         <tr>
             <td>Quantity</td>
-            <td><input type="text" name="quantity"/></td>
+            <td><input type="number" name="quantity"/></td>
         </tr>
         <tr>
             <td>Price</td>

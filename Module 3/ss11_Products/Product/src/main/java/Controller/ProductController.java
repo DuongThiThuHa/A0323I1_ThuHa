@@ -83,7 +83,7 @@ public class ProductController extends HttpServlet {
     private void postDelete(HttpServletRequest request, HttpServletResponse response) throws IOException {
         int id = Integer.parseInt(request.getParameter("id"));
         productService.delete(productService.findByID(id));
-        response.sendRedirect("");
+        response.sendRedirect("/product");
     }
 
     private void postCreate(HttpServletRequest request, HttpServletResponse response) throws IOException {

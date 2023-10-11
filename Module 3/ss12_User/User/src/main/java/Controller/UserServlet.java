@@ -4,7 +4,6 @@ import Dao.IUerDao;
 import Dao.UserDao;
 import Model.User;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -12,7 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
 
@@ -42,14 +40,14 @@ public class UserServlet extends HttpServlet {
                 showSearch(request,response);
                 break;
             case "sort":
-                showSapXep(request,response);
+                showSort(request,response);
             default:
                 listUser(request,response);
                 break;
         }
     }
 
-    private void showSapXep(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    private void showSort(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<User> users = userDao.sortByName();
         request.setAttribute("users",users);
         request.getRequestDispatcher("/User/list.jsp").forward(request,response);
@@ -153,6 +151,6 @@ public class UserServlet extends HttpServlet {
         String country = request.getParameter("country");
         User user = new User(-1,name,email,country);
         userDao.insertUser(user);
-        response.sendRedirect("/users?aciton=list");
+        response.sendRedirect("/users?action=list");
     }
 }

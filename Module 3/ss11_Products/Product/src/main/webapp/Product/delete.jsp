@@ -9,8 +9,8 @@
 <form action="/product" method="post">
     <label for="product">ID</label>
     <select name="productID" id="product">
-        <c:forEach items="${products}" var="e">
-            <option value="${e.id}">${e.id}: ${e.name}</option>
+        <c:forEach items="${products}" var="element">
+            <option value="${element.id}">${element.id}: ${element.name}</option>
         </c:forEach>
     </select>
     <input type="submit" value="Delete">

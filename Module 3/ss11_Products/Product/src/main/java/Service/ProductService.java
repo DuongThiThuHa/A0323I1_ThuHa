@@ -2,6 +2,7 @@ package Service;
 
 import Model.Product;
 import Repository.ProductRepository;
+
 import java.util.List;
 
 
@@ -20,7 +21,7 @@ public class ProductService implements IProductService {
 
     @Override
     public void delete(Product product) {
-        productRepository.update(product);
+        productRepository.delete(product);
     }
 
     @Override

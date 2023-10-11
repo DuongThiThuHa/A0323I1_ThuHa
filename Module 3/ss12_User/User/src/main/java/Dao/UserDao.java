@@ -10,18 +10,35 @@ import java.util.List;
 import static java.sql.DriverManager.getConnection;
 
 public class UserDao implements IUerDao {
+
+//    create database user;
+//    use user;
+//
+//    create table users (
+//    id  int(3) NOT NULL AUTO_INCREMENT,
+//    name varchar(120) NOT NULL,
+//    email varchar(220) NOT NULL,
+//    country varchar(120),
+//    PRIMARY KEY (id)
+//);
+//
+//    insert into users(name, email, country) values('Minh','minh@codegym.vn','Viet Nam');
+//    insert into users(name, email, country) values('Kante','kante@che.uk','Kenia');
+//    insert into users(name, email, country) values('Ha','ha@gmail.com','VietNam');
+
+
+
+
     private String jdbcURL = "jdbc:mysql://127.0.0.1:3307/user";
     private String jdbcUsername = "root";
     private String jdbcPassword = "123456";
-    private static final String findAll = "Select * from user";
-    private static final String delete = "Delete from user where id = ? ;";
-    private static final String select = "Select id,name,email,country from user where id= ?";
-    private static final String insert = "Insert into user(name,email,country) values(?,?,?);";
-    private static final String sort = "select * from user order by name;";
-    private static final String findbycountry = "select * from user where country like ? ";
-
-
-    private static final String update = "update user set name = ?,email= ?, country =? where id = ?;";
+    private static final String findAll = "Select * from users";
+    private static final String delete = "Delete from users where id = ? ;";
+    private static final String select = "Select id,name,email,country from users where id= ?";
+    private static final String insert = "Insert into users(name,email,country) values(?,?,?);";
+    private static final String sort = "select * from users order by name;";
+    private static final String findbycountry = "select * from users where country like ? ";
+    private static final String update = "update users set name = ?,email= ?, country =? where id = ?;";
 
 
     @Override

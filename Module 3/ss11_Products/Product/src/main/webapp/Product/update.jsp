@@ -7,7 +7,7 @@
 <body>
 <h1>Update product</h1>
 <form action="/product" method="post">
-    <table>
+    <table border="-1">
         <tr>
             <td>ID</td>
             <td>Name</td>
@@ -16,14 +16,14 @@
             <td>Date release</td>
         </tr>
         <tr>
-            <td><input readonly type="text" name="id" value="${product.id}"/></td>
+            <td><input type="text" name="id" value="${product.id}"/></td>
             <td><input type="text" name="name" value="${product.name}"/></td>
             <td><input type="text" name="quantity" value="${product.quantity}"/></td>
             <td><input type="text" name="price" value="${product.price}"/></td>
             <td><input type="text" name="dateRelease" value="${dateRelease}"/></td>
     </table>
-    <input type="hidden" name="action" value="create">
-    <input type="submit" id="submitBtn" value="Add">
+    <input type="hidden" name="action" value="Update">
+    <input type="submit" id="submitBtn" value="update">
 </form>
 <a href="/product">Return to show list</a>
 </body>
