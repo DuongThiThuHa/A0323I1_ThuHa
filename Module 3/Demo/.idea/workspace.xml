@@ -4,23 +4,83 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad32e689-0543-47e9-8a11-0501dee89245" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Case Study/CaseStudy/src/main/java/Controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Case Study/CaseStudy/src/main/java/Model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Case Study/CaseStudy/src/main/java/Model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Case Study/CaseStudy/src/main/java/Model/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ss12_User/User/src/main/webapp/User/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ss12_User/User/src/main/webapp/User/update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11_Products/Product/src/main/java/Controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_Products/Product/src/main/java/Controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11_Products/Product/src/main/java/Service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_Products/Product/src/main/java/Service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11_Products/Product/src/main/webapp/Product/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_Products/Product/src/main/webapp/Product/create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11_Products/Product/src/main/webapp/Product/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_Products/Product/src/main/webapp/Product/delete.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11_Products/Product/src/main/webapp/Product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_Products/Product/src/main/webapp/Product/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss11_Products/Product/src/main/webapp/Product/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_Products/Product/src/main/webapp/Product/update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss12_User/User/src/main/java/Controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_User/User/src/main/java/Controller/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss12_User/User/src/main/java/Dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_User/User/src/main/java/Dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss12_User/User/src/main/webapp/User/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_User/User/src/main/webapp/User/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss12_User/User/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ss12_User/User/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="e2036b43-3f18-45e0-92e9-a86bb1d948dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BaseRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CategoryRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ICategoryRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IProductRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProductRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/formCreate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final/src/main/java/Controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final/src/main/java/Repository/BaseRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final/src/main/java/Repository/IRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final/src/main/java/Repository/Repo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final/src/main/java/Service/IService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final/src/main/java/Service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final/src/main/webapp/View/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final/src/main/webapp/View/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final/src/main/webapp/View/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final/src/main/webapp/View/view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study SQL/CG-DN Case Study for Database_v1.3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study SQL/CG-DN Case Study for Database_v1.3_Answer_and_Data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study/CaseStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Case Study/CaseStudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study/CaseStudy/Furama/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Case Study/CaseStudy/Furama/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study/CaseStudy/Furama/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Case Study/CaseStudy/Furama/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study/CaseStudy/Furama/src/main/java/Controller/Customer/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Case Study/CaseStudy/Furama/src/main/java/Controller/Customer/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study/CaseStudy/Furama/src/main/java/Model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Case Study/CaseStudy/Furama/src/main/java/Model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study/CaseStudy/Furama/src/main/java/Model/CustomerType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study/CaseStudy/Furama/src/main/java/Repository/Customer/CustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Case Study/CaseStudy/Furama/src/main/java/Repository/Customer/CustomerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study/CaseStudy/Furama/src/main/java/Service/Customer/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Case Study/CaseStudy/Furama/src/main/java/Service/Customer/ICustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study/CaseStudy/Furama/src/main/webapp/Customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Case Study/CaseStudy/Furama/src/main/webapp/Customer/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Case Study/CaseStudy/Furama/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Case Study/CaseStudy/Furama/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customer/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customer/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customer/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customer/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customer/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customer/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customer/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customer/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customer/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customer/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customer/src/main/java/Dao/CustomerDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customer/src/main/java/Model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customer/src/main/java/com/example/customer/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customer/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Customer/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/src/main/java/Controller/StudentServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/src/main/java/Model/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/src/main/java/Repository/BaseRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/src/main/java/Repository/IStudentRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/src/main/java/Repository/StudentRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/src/main/java/Service/IStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/src/main/java/Service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/src/main/webapp/View/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/src/main/webapp/View/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/src/main/webapp/View/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/src/main/webapp/View/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Student/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db_student.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db_user.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +99,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
-  <component name="ProjectId" id="2WOHb8wVlGuq6TNmpoyRj1Vwdxi" />
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2XFOWVXcCIYOV9u27Kpjke3klWy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,30 +128,105 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "android.gradle.sync.needed": "true",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/CodeGym/Assignments/Module 3/Final",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.68" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.68" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
       <deployment>
-        <artifact name="Gradle : com.example : Demo-1.0-SNAPSHOT.war">
+        <artifact name="Gradle : com.example : demo-1.0-SNAPSHOT.war">
           <settings>
-            <option name="CONTEXT_PATH" value="/Gradle___com_example___Demo_1_0_SNAPSHOT_war" />
+            <option name="CONTEXT_PATH" value="" />
           </settings>
         </artifact>
       </deployment>
-      <server-settings />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="aadc7ef5-a627-487f-ae02-d060a79fbbb5" />
+      </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52722" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Gradle : com.example : Demo-1.0-SNAPSHOT.war" />
+          <artifact name="Gradle : com.example : demo-1.0-SNAPSHOT.war" />
         </option>
       </method>
     </configuration>
@@ -89,12 +234,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ad32e689-0543-47e9-8a11-0501dee89245" name="Changes" comment="" />
-      <created>1696596776240</created>
+      <changelist id="e2036b43-3f18-45e0-92e9-a86bb1d948dc" name="Changes" comment="" />
+      <created>1698221393855</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1696596776240</updated>
-      <workItem from="1696596777231" duration="177000" />
+      <updated>1698221393855</updated>
+      <workItem from="1698221394972" duration="4438000" />
+      <workItem from="1698233478925" duration="66000" />
     </task>
     <servers />
   </component>

@@ -5,12 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2951044-d372-442f-bd0a-752f90337718" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/service/ICustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_mvc/src/main/java/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_mvc/src/main/webapp/view/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_JSP-JSTL/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss10_JSP-JSTL/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case Study SQL/CG-DN Case Study for Database_v1.3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case Study SQL/CG-DN Case Study for Database_v1.3_Answer_and_Data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case Study/CaseStudy/Furama/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Case Study/CaseStudy/Furama/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case Study/CaseStudy/Furama/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Case Study/CaseStudy/Furama/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case Study/CaseStudy/Furama/src/main/java/Controller/Customer/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Case Study/CaseStudy/Furama/src/main/java/Controller/Customer/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case Study/CaseStudy/Furama/src/main/java/Model/CustomerType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case Study/CaseStudy/Furama/src/main/java/Repository/Customer/CustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Case Study/CaseStudy/Furama/src/main/java/Repository/Customer/CustomerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case Study/CaseStudy/Furama/src/main/java/Service/Customer/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Case Study/CaseStudy/Furama/src/main/java/Service/Customer/ICustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case Study/CaseStudy/Furama/src/main/webapp/Customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Case Study/CaseStudy/Furama/src/main/webapp/Customer/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Case Study/CaseStudy/Furama/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Case Study/CaseStudy/Furama/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/src/main/java/Dao/CustomerDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/src/main/java/Model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/src/main/java/com/example/customer/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/src/main/java/Controller/StudentServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/src/main/java/Model/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/src/main/java/Repository/BaseRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/src/main/java/Repository/IStudentRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/src/main/java/Repository/StudentRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/src/main/java/Service/IStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/src/main/java/Service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/src/main/webapp/View/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/src/main/webapp/View/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/src/main/webapp/View/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/src/main/webapp/View/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_student.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_user.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,20 +87,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/CodeGym/Assignments/Module 3/customer",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeGym/Assignments/Module 3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.68" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.68" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
       <option name="BROWSER_ID" value="37cae5b9-e8b2-4949-9172-aafa37fbc09c" />
@@ -156,6 +205,8 @@
       <workItem from="1695481196472" duration="124000" />
       <workItem from="1695582453985" duration="13000" />
       <workItem from="1695823830252" duration="21000" />
+      <workItem from="1697462772913" duration="68000" />
+      <workItem from="1697462856375" duration="57000" />
     </task>
     <servers />
   </component>

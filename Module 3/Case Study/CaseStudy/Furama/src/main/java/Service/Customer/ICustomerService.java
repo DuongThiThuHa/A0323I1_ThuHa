@@ -1,7 +1,6 @@
 package Service.Customer;
 
 import Model.Customer;
-import Model.CustomerType;
 
 import java.util.List;
 

@@ -17,7 +17,7 @@
                     <a class="nav-link" href="furama-servlet?action=employee">Employee</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/Customer/create.jsp">Customer</a>
+                    <a class="nav-link" href="/customer">Customer</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="furama-servlet?action=service">Service</a>

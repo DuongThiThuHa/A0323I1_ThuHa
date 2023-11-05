@@ -5,41 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc59321f-5bbc-42bd-afda-4578ded7e622" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Furama/src/main/java/Dao/CustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Furama/src/main/java/Dao/ICustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Furama/src/main/java/Model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Furama/src/main/java/Model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Furama/src/main/java/Model/Furama.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Furama/src/main/java/Model/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Furama/src/main/java/Model/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Furama/src/main/java/Model/Villa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Furama/src/main/webapp/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Student/src/main/java/Model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Student/src/main/java/Repository/BaseRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Student/src/main/java/Repository/IStudentRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Student/src/main/java/Repository/StudentRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Student/src/main/java/Service/IStudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Student/src/main/java/Service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Student/src/main/webapp/View/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Student/src/main/webapp/View/delete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Student/src/main/webapp/View/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Student/src/main/webapp/View/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_User/User/src/main/webapp/User/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_User/User/src/main/webapp/User/update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_UserManager/src/main/java/Controller/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_UserManager/src/main/java/Dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_UserManager/src/main/java/Dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss12_UserManager/src/main/java/Model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss11_Products/Product/src/main/java/Controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss11_Products/Product/src/main/java/Controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss11_Products/Product/src/main/java/Service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss11_Products/Product/src/main/java/Service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss11_Products/Product/src/main/webapp/Product/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss11_Products/Product/src/main/webapp/Product/create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss11_Products/Product/src/main/webapp/Product/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss11_Products/Product/src/main/webapp/Product/delete.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss11_Products/Product/src/main/webapp/Product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss11_Products/Product/src/main/webapp/Product/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss11_Products/Product/src/main/webapp/Product/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss11_Products/Product/src/main/webapp/Product/update.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss12_User/User/src/main/java/Controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss12_User/User/src/main/java/Controller/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss12_User/User/src/main/java/Dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss12_User/User/src/main/java/Dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss12_User/User/src/main/webapp/User/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss12_User/User/src/main/webapp/User/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss12_User/User/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss12_User/User/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study SQL/CG-DN Case Study for Database_v1.3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Case Study SQL/CG-DN Case Study for Database_v1.3_Answer_and_Data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Furama/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Furama/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Furama/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Furama/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Furama/src/main/java/Controller/Customer/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Furama/src/main/java/Controller/Customer/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Furama/src/main/java/Model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Furama/src/main/java/Model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Furama/src/main/java/Model/CustomerType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Furama/src/main/java/Repository/Customer/CustomerRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Furama/src/main/java/Repository/Customer/CustomerRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Furama/src/main/java/Service/Customer/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Furama/src/main/java/Service/Customer/ICustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Furama/src/main/webapp/Customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Furama/src/main/webapp/Customer/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Furama/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Furama/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Customer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Customer/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Customer/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Customer/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Customer/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Customer/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Customer/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Customer/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Customer/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Customer/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Customer/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Customer/src/main/java/Dao/CustomerDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Customer/src/main/java/Model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Customer/src/main/java/com/example/customer/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Customer/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Customer/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Demo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/src/main/java/Controller/StudentServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/src/main/java/Model/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/src/main/java/Repository/BaseRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/src/main/java/Repository/IStudentRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/src/main/java/Repository/StudentRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/src/main/java/Service/IStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/src/main/java/Service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/src/main/webapp/View/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/src/main/webapp/View/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/src/main/webapp/View/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/src/main/webapp/View/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Student/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../db_student.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../db_user.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +99,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/CodeGym/Assignments/Module 3/Case Study/Furama",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/CodeGym/Assignments/Module 3/demofinal/examination",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -115,6 +138,9 @@
       <workItem from="1696581889374" duration="310000" />
       <workItem from="1696590149771" duration="114000" />
       <workItem from="1696970878784" duration="56000" />
+      <workItem from="1697668804055" duration="18000" />
+      <workItem from="1698065291235" duration="27000" />
+      <workItem from="1698110396757" duration="17000" />
     </task>
     <servers />
   </component>
