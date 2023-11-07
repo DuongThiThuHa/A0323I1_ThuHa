@@ -17,7 +17,7 @@ public class CurrencyController {
     public String convert(@RequestParam String usd, Model model) {
         Double res = 23000 * Double.parseDouble(usd);
         model.addAttribute("usd", usd);
-        model.addAttribute("res", res.toString());
+        model.addAttribute("res",res.toString());
         return "index";
     }
 }
