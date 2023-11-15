@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<body>
+
+<div id="nav">
+
+    <h1>LOGO</h1>
+    <ul>
+        <li><a id="current">Home </a></li>
+        <li><a>About</a></li>
+        <li><a>Services</a></li>
+    </ul>
+    <div th:insert="header :: #nav"></div>
+    <p th:text="#{placeholder.text}"></p>
+    <p th:utext="#{home.welcome}">Xin chào các bạn!</p>
+    <p th:text="#{placeholder.txt}"></p>
+</div>
+</body>
+
+</html>
