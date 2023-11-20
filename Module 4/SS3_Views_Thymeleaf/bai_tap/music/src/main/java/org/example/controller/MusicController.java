@@ -27,13 +27,9 @@ public class MusicController {
 
     @PostMapping("/create")
     public String create(@ModelAttribute Music music, Model model){
-        boolean matcher;
-        if (!Pattern.matches(music.getLink())) {
-            matcher = false;
-        } else {
-            matcher = true;
-        }
-        if (matcher){
+        String regex = "^(https?|ftp)://[^\\s/$.?#].[^\\s]*$"; // Biểu thức chính quy cho URL hợp lệ
+        boolean matches = Pattern.matches(regex, music.getLink());
+        if (matches){
             musicService.create(music);
             model.addAttribute("Message","Thanh Cong");
             return "redirect:/list";
