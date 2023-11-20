@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="435a9353-5441-4ef4-8adf-7388489daf1a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Document/Tìm hiểu về Thymeleaf.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS1_Spring MVC/Thuc_Hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SS1_Spring MVC/Thuc_Hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/DemoThymeleaf/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/DemoThymeleaf/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/DemoThymeleaf/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/DemoThymeleaf/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/DemoThymeleaf/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/DemoThymeleaf/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/DemoThymeleaf/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/DemoThymeleaf/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/DemoThymeleaf/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/DemoThymeleaf/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/DemoThymeleaf/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/DemoThymeleaf/src/main/java/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/DemoThymeleaf/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/DemoThymeleaf/src/main/java/placeholder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/src/main/java/org/example/config/AppConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/src/main/java/org/example/config/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/src/main/java/org/example/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/src/main/java/org/example/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/src/main/java/org/example/repository/IProductRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/src/main/java/org/example/repository/ProductRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/src/main/java/org/example/service/IProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/src/main/java/org/example/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/src/main/webapp/WEB-INF/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/src/main/webapp/WEB-INF/views/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/src/main/webapp/WEB-INF/views/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/src/main/webapp/WEB-INF/views/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/bai_tap/product/src/main/webapp/WEB-INF/views/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/.idea/thuc_hanh.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/src/main/java/org/example/configuration/AppConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/src/main/java/org/example/configuration/AppInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/src/main/java/org/example/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/src/main/java/org/example/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/src/main/java/org/example/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/src/main/java/org/example/service/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/src/main/webapp/WEB-INF/views/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/src/main/webapp/WEB-INF/views/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/src/main/webapp/WEB-INF/views/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_Views&amp;Thymeleaf/thuc_hanh/customer/src/main/webapp/WEB-INF/views/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/src/main/java/Controller/EmailController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/src/main/java/config/AppConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/src/main/java/config/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/src/main/java/model/Email.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/src/main/java/repository/EmailRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/src/main/java/repository/IEmailRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/src/main/java/service/EmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/src/main/java/service/IEmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/src/main/webapp/WEB-INF/views/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS4_Data Binding &amp; Form/bai_tap/Email/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/src/main/java/codegym/vn/config/AppConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/src/main/java/codegym/vn/config/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/src/main/java/codegym/vn/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/src/main/java/codegym/vn/entity/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/src/main/java/codegym/vn/entity/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/src/main/java/codegym/vn/repository/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/src/main/java/codegym/vn/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/src/main/java/codegym/vn/repository/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/src/main/java/codegym/vn/repository/impl/CategoryRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/src/main/java/codegym/vn/repository/impl/ProductRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/src/main/resources/message.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/src/main/webapp/WEB-INF/view/product/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/src/main/webapp/WEB-INF/view/product/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/src/main/webapp/WEB-INF/view/product/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/src/main/webapp/WEB-INF/view/product/update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_spring_orm/demo_spring/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2YImMudoYTec2XcURLNILL9ZXvz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "onboarding.tips.debug.path": "D:/CodeGym/Assignments/Module 4/SS5_CSDL & ORM/bai_tap/Picture/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="435a9353-5441-4ef4-8adf-7388489daf1a" name="Changes" comment="" />
+      <created>1700221423535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700221423535</updated>
+      <workItem from="1700221424575" duration="156000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
