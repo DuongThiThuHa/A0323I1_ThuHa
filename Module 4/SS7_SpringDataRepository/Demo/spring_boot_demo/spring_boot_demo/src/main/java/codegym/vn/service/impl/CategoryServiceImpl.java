@@ -12,7 +12,6 @@ import java.util.List;
 public class CategoryServiceImpl implements CategoryService {
     @Autowired
     private CategoryRepository categoryRepository;
-
     @Override
     public boolean create(Category category) {
         categoryRepository.save(category);
@@ -27,13 +26,11 @@ public class CategoryServiceImpl implements CategoryService {
 
     @Override
     public Category findById(int id) {
-
         return categoryRepository.findById(id).orElse(null);
     }
 
     @Override
     public List<Category> findAll() {
-
         return categoryRepository.findAll();
     }
 

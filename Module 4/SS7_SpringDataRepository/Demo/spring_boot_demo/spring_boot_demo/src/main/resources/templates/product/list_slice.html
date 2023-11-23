@@ -12,7 +12,6 @@
         <br/>
         <input type="submit" value="Search" />
     </form>
-
     <div th:text="${#locale.setDefault('vn')}"></div>
     <form th:action="@{/product/list_slice}" method="get" id="changePageSize">
         <input type="hidden" name="page" th:value="${products.getNumber() + 1}">
@@ -23,7 +22,6 @@
             <option value="4">4</option>
         </select>
     </form>
-
     <table>
         <tr>
             <th>ID</th>
@@ -47,13 +45,10 @@
             </td>
         </tr>
     </table>
-
     <div>
         <a th:if="${products.getNumber() > 0}" th:text="Previous"
            th:href="@{/product/list_slice(page=${products.getNumber()},pageSize=${pageSize})}"></a>
-
         <span th:text="${products.getNumber() + 1}"></span>
-
         <a th:if="${products.getNumberOfElements() == pageSize}" th:text="Next"
            th:href="@{/product/list_slice(page=${products.getNumber()+2},pageSize=${pageSize})}"></a>
     </div>

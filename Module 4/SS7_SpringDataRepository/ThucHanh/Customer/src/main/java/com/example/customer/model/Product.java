@@ -1,25 +1,22 @@
-package codegym.vn.entity;
+package com.example.customer.model;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import java.util.Date;
 
 @Entity
-@NamedQueries({
-        @NamedQuery(name = "findProductByName",
-                query = "From Product p where p.name like :name"),
-        @NamedQuery(name = "findProductByCategoryName",
-                query = "From Product p where p.category.categoryName like :categoryName")
-})
 public class Product {
     @Id
     private int id;
-
     private String name;
     private int quantity;
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
-    private Date dateRelease;
+
+    @DateTimeFormat(pattern = "dd-MM-yyyy")
+    private Date date;
     private double price;
 
     @ManyToOne
@@ -29,11 +26,11 @@ public class Product {
     public Product() {
     }
 
-    public Product(int id, String name, int quantity, Date dateRelease, double price, Category category) {
+    public Product(int id, String name, int quantity, Date date, double price, Category category) {
         this.id = id;
         this.name = name;
         this.quantity = quantity;
-        this.dateRelease = dateRelease;
+        this.date = date;
         this.price = price;
         this.category = category;
     }
@@ -62,12 +59,12 @@ public class Product {
         this.quantity = quantity;
     }
 
-    public Date getDateRelease() {
-        return dateRelease;
+    public Date getDate() {
+        return date;
     }
 
-    public void setDateRelease(Date dateRelease) {
-        this.dateRelease = dateRelease;
+    public void setDate(Date date) {
+        this.date = date;
     }
 
     public double getPrice() {

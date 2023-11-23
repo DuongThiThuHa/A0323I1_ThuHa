@@ -6,18 +6,13 @@
 </head>
 <body>
     <h1>List product</h1>
-
-<!--    Form Search-->
     <form th:action="@{/product/search}" method="get">
         <label for="name">Name</label>
         <input type="text" id="name" name="product_name" />
         <br/>
         <input type="submit" value="Search" />
     </form>
-
-<!--    Paging -->
-    <div th:text="${#locale.setDefault('vn')}"></div> đặt ngôn ngữ mặc định của ứng dụng web thành tiếng Việt (‘vn’).
-
+    <div th:text="${#locale.setDefault('vn')}"></div>
     <form th:action="@{/product/list_paging}" method="get" id="changePageSize">
         <input type="hidden" name="page" th:value="${products.getNumber() + 1}">
         <select name="pageSize" onchange="loadPage();">
@@ -27,7 +22,6 @@
             <option value="4">4</option>
         </select>
     </form>
-
     <table>
         <tr>
             <th>ID</th>
@@ -51,7 +45,6 @@
             </td>
         </tr>
     </table>
-
     <div>
         <span th:each="i : ${pageNumbers}">
         <a th:text="${i}" th:if="${i != products.getNumber() + 1}"
@@ -59,7 +52,6 @@
         <span th:if="${i == products.getNumber() + 1}" th:text="${i}"></span>
         </span>
     </div>
-
     <script>
         function loadPage() {
             document.getElementById("changePageSize").submit();

@@ -30,10 +30,8 @@ public class ProductController {
 
     @GetMapping("/list_paging")
     public String showListPaging(Model model, @RequestParam(name = "page", defaultValue = "1", required = false) int pageNumber,
-                                              @RequestParam(name = "pageSize", required = false, defaultValue = "5") int pageSize) {
-//        Sap xep trang theo thu tu giam dan cua gia
-        Pageable pageable = PageRequest.of(pageNumber - 1, pageSize, Sort.by(Sort.Direction.DESC, "price") .and(Sort.by(Sort.Direction.ASC,"id")));
-
+                                 @RequestParam(name = "pageSize", required = false, defaultValue = "5") int pageSize) {
+        Pageable pageable = PageRequest.of(pageNumber - 1, pageSize, Sort.by(Sort.Direction.DESC, "price"));
         Page<Product> products = productService.findAllAndPaging(pageable);
         int totalPage = products.getTotalPages();
         List<Integer> pageNumbers = new ArrayList<>();
