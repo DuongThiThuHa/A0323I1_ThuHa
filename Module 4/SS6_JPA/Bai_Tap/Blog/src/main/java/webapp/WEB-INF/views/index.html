@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+</head>
+<body>
+<h3>Blog</h3>
+<p>
+    <a th:href="@{/blog/create}">
+        Add new blog
+    </a>
+</p>
+<table id="blog">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Head</th>
+        <th>Content</th>
+        <th colspan="3"></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="row : ${blogs}">
+        <td th:text="${row.getId()}"></td>
+        <td th:text="${row.getHead()}"></td>
+        <td th:text="${row.getContent()}"></td>
+        <td><a th:href="@{/blog/{id}/edit(id=${row.getId()})}">Edit</a></td>
+        <td><a th:href="@{/blog/{id}/delete(id=${row.getId()})}">Delete</a></td>
+        <td><a th:href="@{/blog/{id}/view(id=${row.getId()})}">View</a></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

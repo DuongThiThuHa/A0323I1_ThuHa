@@ -15,7 +15,6 @@ import java.util.Date;
 public class Product {
     @Id
     private int id;
-
     private String name;
     private int quantity;
     @DateTimeFormat(pattern = "yyyy-MM-dd")

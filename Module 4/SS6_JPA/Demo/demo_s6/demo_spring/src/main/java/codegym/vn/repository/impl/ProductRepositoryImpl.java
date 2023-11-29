@@ -62,6 +62,7 @@ public class ProductRepositoryImpl implements ProductRepository {
 //                        "where p.name like :name")
 //                        .setParameter("name", "%" + name + "%")
 //                        .getResultList();
+
         // Truyền param vào theo vị trí của param
 //        List<Product> products =
 //                entityManager.createQuery("From Product  p " +

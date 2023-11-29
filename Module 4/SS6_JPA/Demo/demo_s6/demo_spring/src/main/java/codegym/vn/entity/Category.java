@@ -11,7 +11,7 @@ public class Category {
     @Column(name = "category_id")
     private int categoryId;
 
-    @Column(name = "category_name", columnDefinition = "varchar(50)")
+    @Column(name = "category_name", columnDefinition = "varchar(100)")
     private String categoryName;
     @OneToMany(mappedBy = "category")
     private List<Product> product;

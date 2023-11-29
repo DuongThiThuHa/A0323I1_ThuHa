@@ -75,7 +75,7 @@ public class Product {
         this.price = price;
     }
 
-    public Category getCategory() {
+    public Integer getCategory() {
         return category;
     }
 

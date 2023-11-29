@@ -17,6 +17,8 @@ public class ProductController {
     private ProductService productService;
     @Autowired
     private CategoryService categoryService;
+
+
     @GetMapping("/list")
     public String showList(Model model) {
         model.addAttribute("products", productService.findAll());
