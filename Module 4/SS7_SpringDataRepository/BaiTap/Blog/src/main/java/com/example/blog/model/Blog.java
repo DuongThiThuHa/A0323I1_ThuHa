@@ -1,41 +1,37 @@
-package codegym.vn.entity;
+package com.example.blog.model;
 
+import jakarta.persistence.*;
 import org.springframework.format.annotation.DateTimeFormat;
 
-import javax.persistence.*;
 import java.util.Date;
 
 @Entity
 //NamedQueries: định nghĩa nhiều truy vấn
 //NamedQuery: định nghĩa một truy vấn
 @NamedQueries({
-        @NamedQuery(name = "findProductByName",
-                query = "From Product p where p.name like :name"),
-        @NamedQuery(name = "findProductByCategoryName",
-                query = "From Product p where p.category.categoryName like :categoryName")
+        @NamedQuery( name= "findBlogByName", query = "from Blog blog where blog.name like :name"),
+        @NamedQuery(name = "findCategoryByName", query = "from Category cate where cate.categoryName like :categoryName")
 })
-public class Product {
+public class Blog {
     @Id
     private int id;
     private String name;
-    private int quantity;
+    private String author;
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date dateRelease;
-    private double price;
 
     @ManyToOne
     @JoinColumn(name = "category_id")
     private Category category;
 
-    public Product() {
+    public Blog() {
     }
 
-    public Product(int id, String name, int quantity, Date dateRelease, double price, Category category) {
+    public Blog(int id, String name, String author, Date dateRelease, Category category) {
         this.id = id;
         this.name = name;
-        this.quantity = quantity;
+        this.author = author;
         this.dateRelease = dateRelease;
-        this.price = price;
         this.category = category;
     }
 
@@ -55,12 +51,12 @@ public class Product {
         this.name = name;
     }
 
-    public int getQuantity() {
-        return quantity;
+    public String getAuthor() {
+        return author;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    public void setAuthor(String author) {
+        this.author = author;
     }
 
     public Date getDateRelease() {
@@ -69,14 +65,6 @@ public class Product {
 
     public void setDateRelease(Date dateRelease) {
         this.dateRelease = dateRelease;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
     }
 
     public Category getCategory() {

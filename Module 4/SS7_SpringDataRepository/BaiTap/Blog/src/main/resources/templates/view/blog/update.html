@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Update a blog</title>
+</head>
+<body>
+<h1>Update a blog</h1>
+<form th:action="@{/blog/update}" method="post" th:object="${blog}">
+    <table border="1">
+        <tr>
+            <td>ID</td>
+            <td>
+                <input type="text" th:field="*{id}" />
+            </td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>
+                <input type="text" th:field="*{name}" />
+            </td>
+        </tr>
+        <tr>
+            <td>Category</td>
+            <td>
+                <select th:field="*{category.categoryId}">
+                    <option th:each="c: ${category}"
+                            th:value="${c.categoryId}"
+                            th:text="${c.categoryName}"
+                            th:selected="${blog.category.categoryId == c.categoryId}"></option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Author</td>
+            <td>
+                <input type="text" th:field="*{author}">
+            </td>
+        </tr>
+        <tr>
+            <td>Date Release</td>
+            <td>
+                <input type="text" th:field="*{dateRelease}" placeholder="dd/MM/yyyy">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Update">
+            </td>
+        </tr>
+    </table>
+</form>
+<style>
+    form{
+        text-align: center;
+        color: #437ade;
+    }
+    table{
+        border-collapse: collapse;
+        width: 100%;
+    }
+</style>
+</body>
+</html>

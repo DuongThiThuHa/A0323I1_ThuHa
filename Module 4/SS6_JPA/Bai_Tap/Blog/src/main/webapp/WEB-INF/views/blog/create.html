@@ -10,7 +10,7 @@
 <div id="form">
     <form th:action="@{/blog/create}" th:object="${blog}"
           method="post" novalidate="novalidate">
-        <input type="hidden" th:field="*{id}"/>
+        <input type="hidden" th:field="*{}"/>
         <div>
             <label>Head</label>
             <input type="text" th:field="*{head}"/>

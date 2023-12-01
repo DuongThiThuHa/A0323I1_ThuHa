@@ -22,6 +22,7 @@ public class ProductController {
     private ProductService productService;
     @Autowired
     private CategoryService categoryService;
+
     @GetMapping("/list")
     public String showList(Model model) {
         model.addAttribute("products", productService.findAll());
@@ -29,8 +30,7 @@ public class ProductController {
     }
 
     @GetMapping("/list_paging")
-    public String showListPaging(Model model, @RequestParam(name = "page", defaultValue = "1", required = false) int pageNumber,
-                                 @RequestParam(name = "pageSize", required = false, defaultValue = "5") int pageSize) {
+    public String showListPaging(Model model, @RequestParam(name = "page", defaultValue = "1", required = false) int pageNumber,@RequestParam(name = "pageSize", required = false, defaultValue = "5") int pageSize) {
         Pageable pageable = PageRequest.of(pageNumber - 1, pageSize, Sort.by(Sort.Direction.DESC, "price"));
         Page<Product> products = productService.findAllAndPaging(pageable);
         int totalPage = products.getTotalPages();
@@ -47,8 +47,7 @@ public class ProductController {
     }
 
     @GetMapping("/list_slice")
-    public String showListPagingSlice(Model model, @RequestParam(name = "page", defaultValue = "1", required = false) int pageNumber,
-                                 @RequestParam(name = "pageSize", required = false, defaultValue = "5") int pageSize) {
+    public String showListPagingSlice(Model model, @RequestParam(name = "page", defaultValue = "1", required = false) int pageNumber, @RequestParam(name = "pageSize", required = false, defaultValue = "5") int pageSize) {
         Pageable pageable = PageRequest.of(pageNumber - 1, pageSize, Sort.by(Sort.Direction.DESC, "price"));
         Slice<Product> products = productService.findAllSlice(pageable);
         model.addAttribute("products", products);
@@ -58,8 +57,7 @@ public class ProductController {
     }
 
     @GetMapping("/search")
-    public String showSearch(Model model,
-                             @RequestParam("product_name") String name) {
+    public String showSearch(Model model, @RequestParam("product_name") String name) {
         model.addAttribute("products", productService.findAllByName(name));
         return "product/list";
     }
@@ -79,8 +77,7 @@ public class ProductController {
     }
 
     @GetMapping("/detail/{id}")
-    public String showDetail(Model model,
-                             @PathVariable("id") int id) {
+    public String showDetail(Model model, @PathVariable("id") int id) {
         Product product = productService.findById(id);
         model.addAttribute("product", product);
         return "product/detail";

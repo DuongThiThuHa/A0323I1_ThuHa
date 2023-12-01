@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List Blog</title>
+</head>
+<body>
+<h1>List a blog</h1>
+<form th:action="@{/blog/search}" method="get">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="blog-name"/>
+    <input type="submit" value="Search" />
+</form>
+<br><br>
+
+<table border="1" style="border-collapse: collapse; width: 100%;text-align: center">
+    <tr style="color: #437ade">
+        <td>Id </td>
+        <td>Name </td>
+        <td>Category </td>
+        <td>Author </td>
+        <td>Date Release </td>
+        <td th:rowspan="2">Action </td>
+    </tr>
+
+<!--    Đặt tên trùng với tên (model.addAttribute("blog")) hoặc thêm số nhiều-->
+    <tr th:each="b: ${blog}" th:object="${b}">
+        <td th:text="*{id}"></td>
+        <td th:text="*{name}"></td>
+        <td th:text="*{category.categoryName}"></td>
+        <td th:text="*{author}"></td>
+        <td th:text="*{#dates.format(dateRelease, 'dd/MM/yyyy')}"></td>
+        <td>
+            <a href="@{/blog/detail/{id}(id=*{id})}">Detail</a>
+        </td>
+        <td>
+            <a href="@{/blog/update(id=*{id})}">Update </a>
+        </td>
+    </tr>
+</table>
+<style>
+    form{
+        text-align: center;
+    }
+
+    h1{
+        color: blue;
+        text-align: center;
+    }
+</style>
+</body>
+</html>

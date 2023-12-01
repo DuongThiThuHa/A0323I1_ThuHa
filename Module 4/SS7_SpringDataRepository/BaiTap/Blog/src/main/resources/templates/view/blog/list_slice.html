@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List Product</title>
+</head>
+<body>
+    <h1>List Product</h1>
+<form th:action="@{/blog/search}" method="get">
+    <label for="name">name</label>
+    <input type="text" id="name" name="blog_name" />
+    <input type="submit" value="Search" />
+</form>
+
+<form th:action="@{/blog/list_space}" method="get" id="changePageSize">
+    <input type="hidden" name="page" th:value="${blog.getNumber()+1}">
+    <select name="pageSize" onchange="loadPage();">
+        <option value="3">3</option>
+        <option value="2">2</option>
+        <option value="1">1</option>
+    </select>
+</form>
+
+<table border="1" style="border-collapse: collapse; text-align: center">
+    <tr>
+        <td>ID</td>
+        <td>Name</td>
+        <td>Category</td>
+        <td>Author</td>
+        <td>Date Release</td>
+        <td>Action</td>
+    </tr>
+    <tr th:each="b : ${blog}" th:object="${b}">
+        <td th:text="*{id}"></td>
+        <td th:text="*{name}"></td>
+        <td th:text="*{category.categoryName}"></td>
+        <td th:text="*{author}"></td>
+        <td th:text="*{#dates.format(dateRelease,'dd/MM/yyyy')}"></td>
+        <td>
+            <a th:href="@{/blog/detail/{id}(id=*{id})}">Detail</a>
+        </td>
+        <td>
+            <a th:href="@{/blog/update(id=*{id})}">Update</a>
+        </td>
+    </tr>
+</table>
+
+<div>
+    <a th:if="${blog.getNumber() > 0}" th:text="Previous" th:href="@{/blog/list_slice(page=${blog.getNumber()},pageSize=${pageSize})}"></a>
+    <span th:text="${blog.getNumber() + 1}"></span>
+    <a th:if="${blog.getNumberOfElements() == pageSize}" th:text="Next" th:href="@{/blog/list_slice(page=${blog.getNumber()+2},pageSize=${pageSize})}"></a>
+</div>
+
+<script>
+    function loadPage(){
+        document.getElementById("changePageSize").submit();
+    }
+</script>
+</body>
+</html>
