@@ -24,8 +24,8 @@ public class BlogController {
 
     @GetMapping("/create")
     public String showCreate(Model model){
-        model.addAttribute("blog", new Blog());
-        return "create";
+        model.addAttribute("blog",new Blog());
+        return "/create";
     }
 
     @GetMapping("/{id}/view")
