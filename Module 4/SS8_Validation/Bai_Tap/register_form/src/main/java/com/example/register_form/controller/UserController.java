@@ -15,15 +15,15 @@ public class UserController {
     @GetMapping("")
     public String showIndex(Model model) {
         model.addAttribute("user", new User());
-        return "index";
+        return "/user/index";
     }
 
     @PostMapping("/sign")
     public String showResult(@Validated User user, BindingResult bindingResult, Model model) {
         if (bindingResult.hasErrors()) {
-            return "index";
+            return "/user/index";
         }
         model.addAttribute("user", user);
-        return "result";
+        return "/user/result";
     }
 }

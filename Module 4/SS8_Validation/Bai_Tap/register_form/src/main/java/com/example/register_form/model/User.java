@@ -24,6 +24,9 @@ public class User {
     @Email(message = "Email không đúng định dạng")
     private String email;
 
+    public User() {
+    }
+
     public String getFirstName() {
         return firstName;
     }
@@ -70,8 +73,5 @@ public class User {
         this.phoneNumber = phoneNumber;
         this.age = age;
         this.email = email;
-    }
-
-    public User() {
     }
 }
