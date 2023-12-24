@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Dánh sách sản phẩm</h1>
+        <table>
+            <tr>
+                <th>Code item</th>
+                <th>Name item</th>
+                <th>Price</th>
+                <th>Image</th>
+
+            </tr>
+            <tr th:each="product:${listProduct}">
+                <td th:text="${product.id}"></td>
+                <td th:text="${product.name}"></td>
+                <td th:text="${product.price}"></td>
+                <td>
+                    <div><img th:src="@{${product.image}}" alt=""></div>
+                </td>
+
+                <td>
+                    <a th:href="@{/product/add-to-cart/{id}(id=${product.id})}"></a>
+                </td>
+            </tr>
+        </table>
+</body>
+</html>

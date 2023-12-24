@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:object="${cart}" method="get">
+    <div>
+        <h1>Danh sách giỏ hàng</h1>
+        <table>
+            <th:block th:each="product,status:${cart.listProduct}">
+                <div>
+                    <input type="checkbox" name="product" th:value="${product.getKey().id}">
+                </div>
+                <div>
+                    <img th:src="@{${product.getKey().image}}" alt=""/></div>
+                <div>
+                    <h2 th:text="${product.getKey().name}">Tên sản phẩm</h2>
+                </div>
+                <div>
+                    <span th:text="${'Giá bán :'+product.getKey().price}"></span>
+                </div>
+                <div>
+                    <span>Số lượng : </span>
+                    <input readonly type="text" th:value="${product.getValue()}"><br>
+
+                    <a th:href="@{/cart/down/{id}(id=${product.getKey().id})}">
+                        <button type="button">-</button>
+                    </a>
+                    <a th:href="@{/cart/up/{id}(id=${product.getKey().id})}">
+                        <button type="button">+</button>
+                    </a>
+                </div>
+                <div>
+                    <a th:href="@{/cart/delete(id=${product.getKey().getId()})}">
+                        <button type="button">Delete</button>
+                    </a>
+                </div>
+                <div>
+                    <button type="button">Buy</button>
+                </div>
+            </th:block>
+    </table>
+
+        <div>
+            <button type="submit">Total payment</button>
+        </div>
+        <div>
+            <div th:if="${result!= null && result != ''}"><span th:text="${result+' d '}"></span></div>
+        </div>
+    </div>
+</form>
+</body>
+</html>

@@ -19,7 +19,7 @@ public class UserUtils {
         UserUtils utils = new UserUtils();
         System.out.println(utils.generatePassword("123456"));
 
-        if (utils.checkPassword("$2a$12$.JiLruS1nc4K/1owczbCgOXTxZnl3cCiUrqCgLC0tJgTrHkW4MXCe", "123456")) {
+        if (utils.checkPassword("$2a$12$vvunnsloA8BRa7RtrGtVpO8uVUQM0g.Xk11d.408JoQp/sIlWYnvq", "123456")) {
             System.out.println("Password correct");
         } else {
             System.out.println("Password incorrect");

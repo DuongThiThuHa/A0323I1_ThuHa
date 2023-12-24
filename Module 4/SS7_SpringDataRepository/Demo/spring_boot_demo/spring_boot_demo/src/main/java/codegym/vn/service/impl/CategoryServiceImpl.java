@@ -14,6 +14,7 @@ public class CategoryServiceImpl implements CategoryService {
     private CategoryRepository categoryRepository;
     @Override
     public boolean create(Category category) {
+//        categoryRepository.save(category);
         categoryRepository.save(category);
         return true;
     }

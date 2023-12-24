@@ -35,7 +35,6 @@ public class FilterLogin implements Filter {
                 return;
             }
         }
-
         chain.doFilter(req,res);
     }
 }

@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Title</title>
+</head>
+
+<body>
+    <h1>Product Details</h1>
+        <div th:object="${product}">
+            <div>
+                <div>
+                    <img th:src="*{image}" alt="Image">
+                </div>
+                <div>
+                    <h1 th:text="*{name}">Product Name</h1>
+                    <p th:text="*{'Giá :'+price}">$99.99</p>
+                    <p th:text="*{'Mô tả: '+ description}">
+                        OK
+                    </p>
+                    <a th:href="@{/product/add-to-cart/{id}(id=${product.id})}">
+                        <button type="submit">Add to Cart</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Giỏ hàng</h1>
+<form th:object="${cart}" method="get">
+    <table>
+        <tr>
+            <th>STT</th>
+            <th>Name product</th>
+            <th>Image</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+
+        <tr th:each="product,status:${cart.listProduct}">
+            <td th:text="${status.count}"></td>
+            <td th:text="${product.getKey().name}"></td>
+            <td><img th:src="@{${product.getKey().image}}" alt=""/></td>
+            <td th:text="${product.getKey().price}"></td>
+            <td>
+                <input type="text" th:value="${product.getValue()}">
+                <a th:href="@{/cart/up/{id}(id=${product.getKey().id})}"><input type="button" value="+"></a>
+                <a th:href="@{/cart/down/{id}(id=${product.getKey().id})}"><input type="button" value="-"></a>
+            </td>
+            <td><a th:href="@{/cart/delete(id=${product.getKey().getId()})}"><input type="button" value="Delete"></a></td>
+        </tr>
+        <tr>
+            <td>
+                <span th:text="${result}"></span>
+            </td>
+            <td>
+                <input type="submit" value="Total: ">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

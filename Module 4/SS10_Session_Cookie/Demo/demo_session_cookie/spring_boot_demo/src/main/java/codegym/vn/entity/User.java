@@ -3,8 +3,10 @@ package codegym.vn.entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "user")
 public class User {
     @Id
     @Column(columnDefinition = "varchar(50)")
