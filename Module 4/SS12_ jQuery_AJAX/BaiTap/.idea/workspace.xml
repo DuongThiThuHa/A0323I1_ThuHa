@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e1b395fa-b965-418f-96d1-974b2a02a083" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../SS11_ Web Service_RESTful/BaiTap/Blog/src/main/java/org/example/blog/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS11_ Web Service_RESTful/BaiTap/Blog/src/main/java/org/example/blog/model/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS11_ Web Service_RESTful/BaiTap/Blog/src/main/java/org/example/blog/model/BlogCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS11_ Web Service_RESTful/BaiTap/Blog/src/main/java/org/example/blog/repository/IBlogCategoryRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS11_ Web Service_RESTful/BaiTap/Blog/src/main/java/org/example/blog/repository/IBlogRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS11_ Web Service_RESTful/BaiTap/Blog/src/main/java/org/example/blog/service/BlogCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS11_ Web Service_RESTful/BaiTap/Blog/src/main/java/org/example/blog/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SS11_ Web Service_RESTful/BaiTap/Blog/src/main/java/org/example/blog/service/IService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS10_Session_Cookie/BaiTap/Cart/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS10_Session_Cookie/BaiTap/Cart/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS1_Spring MVC/Thuc_Hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS1_Spring MVC/Thuc_Hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS5_CSDL_ORM/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS5_CSDL_ORM/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS7_SpringDataRepository/BaiTap/Blog/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS7_SpringDataRepository/BaiTap/Blog/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SS7_SpringDataRepository/Demo/spring_boot_demo/spring_boot_demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../SS7_SpringDataRepository/Demo/spring_boot_demo/spring_boot_demo/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2aR6apH4cw94FXb50BUuWpzM9V7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/CodeGym/Assignments/Module 4/SS12_ jQuery_AJAX/BaiTap",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1b395fa-b965-418f-96d1-974b2a02a083" name="Changes" comment="" />
+      <created>1704269110707</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704269110707</updated>
+      <workItem from="1704269111733" duration="76000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
