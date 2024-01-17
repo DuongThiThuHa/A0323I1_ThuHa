@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 style="text-align: center">Danh sach du an</h1>
+<!--<form th:action="@{/duan/search}" method="get">-->
+<!--    <label for="tenDoanhNghiep">Ten Doanh Nghiep</label>-->
+<!--    <input type="text" id="tenDoanhNghiep" name="tenDoanhNghiep" />-->
+<!--    <input type="submit" value="Search" />-->
+<!--</form>-->
+
+<table border="1" style="border-collapse: collapse">
+    <tr>
+        <th>Ma du an</th>
+        <th>Ten Doanh Nghiep</th>
+        <th>Ten du an</th>
+        <th>Kinh phi yeu cau</th>
+        <th>Mo ta du an</th>
+        <th>Thoi gian dang ky gioi thieu</th>
+        <th>Ngay dang ky</th>
+    </tr>
+    <tr th:each="p: ${projects}" th:object="${p}">
+        <td th:text="*{project_id}"></td>
+        <td th:text="*{company.name}"></td>
+        <td th:text="*{project_name}"></td>
+        <td th:text="*{#numbers.formatCurrency(price)}"></td>
+        <td th:text="*{des}"></td>
+        <td th:text="*{time}"></td>
+        <td th:text="*{#dates.format(date,'dd/MM/yyyy')}"></td>
+        <td>
+            <a th:href="@{/templates/project/detail/{project_id}(project_id=*{project_id})}">Chi tiet du an</a>
+        </td>
+        <a th:href="@{/templates/project/create(project_id=*{project_id})}">Them moi du an</a>
+    </tr>
+</table>
+</body>
+</html>

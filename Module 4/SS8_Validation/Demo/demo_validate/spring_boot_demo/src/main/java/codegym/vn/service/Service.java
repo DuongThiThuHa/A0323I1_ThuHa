@@ -7,5 +7,4 @@ public interface Service<T> {
     boolean update(T t);
     T findById(int id);
     List<T> findAll();
-    boolean deleteById(int id);
-}
+    void deleteById(int id);}

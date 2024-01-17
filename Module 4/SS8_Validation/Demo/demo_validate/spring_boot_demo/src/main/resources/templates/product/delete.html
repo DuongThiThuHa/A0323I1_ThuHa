@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a th:href="/product/delete/{id}" th:class="deleteModal" aria-labelledby="exampleModalLabel" tabindex="-1" role="dialog" aria-hidden="true">
+    <div th:class="modal-dialog" role="document">
+        <div th:class="modal-header">
+            <h5 th:class="modal-title" id="exampleModalLabel">Confirm Delete</h5>
+        </div>
+        <div th:class="modal-body">Are you want to delete thí record ?</div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            <a href="" class="btn btn-danger" id="confirmDelete">Delete</a>
+        </div>
+    </div>
+</a>
+
+<script>
+    $('#deleteModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget);
+        var id = button.data('id');
+        var modal = $(this);
+        modal.find('#confirmDelete').attr('href', '/product/delete/' + id);
+    });
+</script>
+</body>
+</html>

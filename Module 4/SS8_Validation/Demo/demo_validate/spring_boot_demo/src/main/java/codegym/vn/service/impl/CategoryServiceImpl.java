@@ -35,7 +35,6 @@ public class CategoryServiceImpl implements CategoryService {
     }
 
     @Override
-    public boolean deleteById(int id) {
-        return false;
+    public void deleteById(int id) {
     }
 }

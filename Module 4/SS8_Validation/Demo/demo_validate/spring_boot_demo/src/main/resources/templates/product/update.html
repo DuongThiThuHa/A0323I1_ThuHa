@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <title>Update product</title>
 </head>
+<style>
+    title{
+        color: #009dff;
+        text-align: center;
+        width: auto;
+        height: 50px;
+    }
+    /*.error {*/
+    /*    color: red;*/
+    /*}*/
+    table{
+        border-collapse: collapse;
+        text-align: center;
+    }
+</style>
 <body>
     <h1>Create new product</h1>
     <form th:action="@{/product/update}" method="post" th:object="${product}">

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 style="text-align: center">List Blog</h1>
+<form th:action="@{/blog/search}" method="get">
+    <label for="title">Tieu de</label>
+    <input type="text" id="title" name="title"/>
+    <input type="submit" value="Tim kiem"/>
+</form>
+
+<table border="1" style="border-collapse: collapse">
+    <thead>
+    <tr>
+        <th>STT</th>
+        <th>Tieu de</th>
+        <th>Danh muc</th>
+        <th>Ngay dang tin</th>
+        <th>Phong vien</th>
+        <th></th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr th:each="blog: ${blog}" th:object="${blog}">
+        <td th:text="*{id}"></td>
+        <td th:text="*{title}"></td>
+        <td th:text="*{category.categoryName}"></td>
+        <td th:text="*{#dates.format(dateRelease,'dd/MM/yyyy')}"></td>
+        <td th:text="*{people}"></td>
+        <td>
+            <a th:href="@{/blog/detail/{id}(id=*{id})}">Chi tiet</a>
+            <a th:href="@{/blog/delete(id=*{id})}">Xoa</a>
+        </td>
+        <a th:href="@{/blog/create(id=*{id})}">Them tin</a>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

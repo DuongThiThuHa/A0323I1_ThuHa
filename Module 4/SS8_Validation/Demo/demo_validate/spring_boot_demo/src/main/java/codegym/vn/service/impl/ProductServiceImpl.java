@@ -38,10 +38,10 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public boolean deleteById(int id) {
+    public void deleteById(int id) {
         repository.deleteById(id);
-        return true;
     }
+
 
     @Override
     public List<Product> findAllByName(String name) {

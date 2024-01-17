@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<h1 style="text-align: center">Them moi du an</h1>
+<form th:action="@{/templates/project/create}" method="post" th:object="${project}">
+    <table border="1" style="border-collapse: collapse">
+        <tr>
+            <td>Ma du an</td>
+            <td>
+                <input type="text" th:field="*{project_id}">
+            <td th:if="${#fields.hasErrors('project_id')}" th:errors="*{project_id}" class="error"></td>
+        </tr>
+
+        <tr>
+            <td>ten Doanh Nghiep</td>
+            <td>
+                <select th:field="*{company.name}">
+                    <option th:each="c: ${company}" th:value="${c.name}"
+                            th:text="${c.name}"></option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>ten Du An</td>
+            <td>
+                <input type="text" th:field="*{project_name}"/>
+            <td th:if="${#fields.hasErrors('project_name')}" th:errors="*{project_name}" class="error"></td>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Kinh phi du an</td>
+            <td>
+                <input type="text" th:field="*{price}" />
+                <td th:if="${#fields.hasErrors('price')}" th:errors="*{price}" class="error"> </td>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Mo ta du an</td>
+            <td>
+                <input type="text" th:field="*{des}">
+            <td th:if="${#fields.hasErrors('des')}" th:errors="*{des}" class="error"> </td>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Thoi Gian Dang Ky</td>
+            <td>
+                <input type="text" th:field="*{time}" />
+            <td th:if="${#fields.hasErrors('time')}" th:errors="*{time}" class="error"> </td>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Ngay Dang Ky</td>
+            <td>
+                <input type="text" th:field="*{date}" placeholder="dd/MM/yyyy" />
+            <td th:if="${#fields.hasErrors('date')}" th:errors="*{date}" class="error"></td>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="reset" value="Huy">
+            </td>
+            <td>
+                <input type="submit" value="Dang Ky">
+            </td>
+        </tr>
+
+    </table>
+</form>
+</body>
+</html>

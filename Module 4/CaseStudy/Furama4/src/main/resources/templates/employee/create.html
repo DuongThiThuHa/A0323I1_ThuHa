@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Create Employee</h1>
+<form th:action="@{/employee/create}" method="post" th:object="${employee}">
+    <table>
+        <tr>
+            <td>Employee ID</td>
+            <td><input type="text" th:field="*{employeeId}"></td>
+        </tr>
+        <tr>
+            <td>Employee Name</td>
+            <td><input type="text" th:field="*{employeeName}"></td>
+        </tr>
+        <tr>
+            <td>Employee Birthday</td>
+            <td><input type="date" th:field="*{employeeBirthday}"></td>
+        </tr>
+        <tr>
+            <td>Employee ID Card</td>
+            <td><input type="text" th:field="*{employeeIdCard}"></td>
+        </tr>
+        <tr>
+            <td>Employee Salary</td>
+            <td><input type="text" th:field="*{employeeSalary}"></td>
+        </tr>
+        <tr>
+            <td>Employee NumberPhone</td>
+            <td><input type="text" th:field="*{employeePhone}"></td>
+        </tr>
+        <tr>
+            <td>Employee Email</td>
+            <td><input type="text" th:field="*{employeeEmail}"></td>
+        </tr>
+        <tr>
+            <td>Employee Address</td>
+            <td><input type="text" th:field="*{employeeAddress}"></td>
+        </tr>
+        <!--        <tr>-->
+        <!--            <td>Employee User</td>-->
+        <!--            <td><input type="text" th:field="*{user}"></td>-->
+        <!--        </tr>-->
+
+        <tr>
+            <td>User</td>
+            <td>
+                <select th:field="*{user}">
+                    <option th:each="u : ${user}" th:value="${u.username}" th:text="${u.username}"/>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Position</td>
+            <td>
+                <select th:field="*{position}">
+                    <option th:each="p : ${position}" th:value="${p.positionId}" th:text="${p.positionName}"/>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Division</td>
+            <td>
+                <select th:field="*{division}">
+                    <option th:each="d : ${division}" th:value="${d.divisionId}" th:text="${d.divisionName}"/>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Education Degree</td>
+            <td>
+                <select th:field="*{educationDegree}">
+                    <option th:each="e : ${educationDegree}" th:value="${e.educationDegreeId}" th:text="${e.educationDegreeName}"/>
+                </select>
+            </td>
+        </tr>
+
+    </table>
+    <input type="submit" value="Create Employee"/>
+</form>
+</body>
+</html>

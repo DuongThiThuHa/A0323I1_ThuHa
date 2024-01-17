@@ -1,8 +1,6 @@
 package codegym.vn.controller;
 
 import codegym.vn.entity.Product;
-import codegym.vn.repository.CategoryRepository;
-import codegym.vn.repository.ProductRepository;
 import codegym.vn.service.CategoryService;
 import codegym.vn.service.ProductService;
 import codegym.vn.validate.ProductValidate;
@@ -14,7 +12,6 @@ import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-import javax.persistence.OrderBy;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -109,5 +106,10 @@ public class ProductController {
         product.setCategory(categoryService.findById(product.getCategory().getCategoryId()));
         productService.update(product);
         return "redirect:/product/list";
+    }
+
+    @DeleteMapping("/delete")
+    public void deleteProduct(@PathVariable int id) {
+        productService.deleteById(id);
     }
 }

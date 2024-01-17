@@ -5,7 +5,7 @@
     <title>Detail product</title>
 </head>
 <body>
-    <h1 th:text="#{title}">Detail product</h1>
+    <h1>Detail product</h1>
     <table th:object="${product}">
         <tr>
             <td>ID:</td>
@@ -33,5 +33,20 @@
         </tr>
     </table>
     <a th:text="|Back to list|" th:href="@{/product/list}"></a>
+    <style>
+        title{
+            color: #009dff;
+            text-align: center;
+            width: auto;
+            height: 50px;
+        }
+        .error {
+            color: red;
+        }
+        table{
+            border-collapse: collapse;
+            border: 1px;
+        }
+    </style>
 </body>
 </html>
