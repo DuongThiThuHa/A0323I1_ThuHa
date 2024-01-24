@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {Component} from "react";
+import Alert from "./component/Alert";
+import "./App.css"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            display: true
+        };
+    }
+
+    render() {
+        let com;
+        if (this.state.display) {
+            com = <Alert></Alert>
+            com = <div className="alert alert-warning" role="alert">
+                Cảnh báo! Tài nguyên bạn vừa truy cập không tồn tại.
+            </div>
+        }
+        return (
+            <div>{com}</div>
+        )
+    }
 }
 
-export default App;
+export default App

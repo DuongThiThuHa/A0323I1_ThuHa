@@ -1,7 +1,10 @@
+import React from "react";
+import {Component} from "react";
 import AddComponent from "./components/AddComponent";
 function App(){
-  return (
-      <AddComponent firstNumber={21} secondNumber={23}></AddComponent>
-  );
+    return(
+        <AddComponent firstNumber={12} secondNumber={24}></AddComponent>
+    );
 }
-export default App;
+
+export default App

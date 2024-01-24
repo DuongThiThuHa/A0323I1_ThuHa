@@ -1,0 +1,8 @@
+IMPORT BOOTSTRAP VAO REACT 
+
+
+Terminal
+npm i --save bootstrap
+
+Import thu vien 
+import "bootstrap/dist/css/bootstrap.css";
