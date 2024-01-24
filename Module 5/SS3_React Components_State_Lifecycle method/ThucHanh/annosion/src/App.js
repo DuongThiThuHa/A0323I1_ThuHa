@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {Component} from "react";
+import Hello from "./Hello";
+import "./App.css"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component{
+  constructor(props) {
+    super(props);
+    this.state = {
+      display: true
+    };
+  }
+
+  delete = () =>{
+    this.setState({display: false});
+  };
+
+  render() {
+    let comp;
+    if (this.state.display){
+      comp = <Hello></Hello>
+    }
+    return(
+        <div>{comp}
+        <button onClick={this.delete}> Delete the component</button>
+        </div>
+    );
+  }
 }
-
 export default App;
