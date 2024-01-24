@@ -1,0 +1,26 @@
+img {
+    width: 30px;
+    height: 250px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+button {
+    background-color: #3c8fe5;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+.card{
+    width: 50%;
+}
