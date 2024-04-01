@@ -2,7 +2,16 @@ IMPORT BOOTSTRAP VAO REACT
 
 
 Terminal
-npm i --save bootstrap
+npm i --save bootstrap  
+npm install link-react --save 
+npm i react-router-dom
+npm i react-axios
+npm install --save react-toastify
+npm i formik
+npm i yup
+
+
 
 Import thu vien 
 import "bootstrap/dist/css/bootstrap.css";
+ json-server --watch data.json --port 8081

@@ -39,7 +39,6 @@ class Calculator extends Component {
     this.setState({ result: Number(this.state.firstNum) / Number(this.state.secondNum) });
   }
 
-
   delete = () => {
     this.setState({ firstNum: "", secondNum: "", result: "" });
   }

@@ -1,0 +1,336 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Nhiet ke",
+      "desc": "Dung cu y te",
+      "type": "Thiet bi y te",
+      "price": 23000,
+      "quantity": 5,
+      "date": "2024-07-12"
+    },
+    {
+      "id": 2,
+      "name": "Ha sot Pardon",
+      "desc": "Dung cu y te",
+      "type": "Duoc Pham",
+      "price": 15000,
+      "quantity": 5,
+      "date": "2024-09-05"
+    },
+    {
+      "id": 3,
+      "name": "Fefferman",
+      "type": "Duoc Pham",
+      "price": 5000,
+      "quantity": 5,
+      "date": "2024-03-06",
+      "desc": "con hang"
+    },
+    {
+      "name": "nhiệt kế2",
+      "type": "1",
+      "price": "11",
+      "quantity": "11",
+      "date": "2024-02-27",
+      "desc": "con hang",
+      "id": 4
+    },
+    {
+      "name": "thuốc nhức đầu ",
+      "type": "2",
+      "price": "11",
+      "quantity": "1",
+      "date": "2024-02-27",
+      "desc": "con hang",
+      "id": 5
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "2",
+      "price": "1",
+      "quantity": "1",
+      "date": "2024-03-12",
+      "desc": "con hang",
+      "id": 6
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "1",
+      "price": "25555",
+      "quantity": "5",
+      "date": "2024-02-28",
+      "desc": "con hang",
+      "id": 7
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "1",
+      "price": "5",
+      "quantity": "5",
+      "date": "2024-02-29",
+      "desc": "con hang",
+      "id": 8
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "2",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 9
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "2",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 10
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "2",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 11
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "2",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 12
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "2",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 13
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "2",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 14
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "2",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 15
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "2",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 16
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "2",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 17
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "2",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 18
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "2",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 19
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "3",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 20
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "3",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 21
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "3",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 22
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "3",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 23
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "3",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 24
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "3",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 25
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "3",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 26
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "3",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 27
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "3",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 28
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "3",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 29
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "3",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 30
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "3",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 31
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "3",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 32
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "3",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 33
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "3",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-02-28",
+      "desc": "hết hàng",
+      "id": 34
+    },
+    {
+      "name": "Dương Thị Thu Hà",
+      "type": "3",
+      "price": "25555",
+      "quantity": "3",
+      "date": "2024-03-07",
+      "desc": "hết hàng",
+      "id": 35
+    }
+  ],
+  "type": [
+    {
+      "id": 1,
+      "typeProduct": "Duoc Pham",
+      "descProduct": "Con Hang"
+    },
+    {
+      "id": 2,
+      "typeProduct": "Thiet bi y te",
+      "descProduct": "Con Hang"
+    },
+    {
+      "id": 3,
+      "typeProduct": "Thuc pham chuc nang",
+      "descProduct": "Con Hang"
+    }
+  ]
+}

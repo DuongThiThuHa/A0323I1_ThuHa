@@ -1,15 +1,13 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.css";
 
-
-const AlertComponent = (props) => {
+function Alert(props) {
     return (
         <>
             <div className="alert alert-primary" role="alert">
-                Cảnh báo! Tài nguyên bạn vừa truy cập không tồn tại.
+                {props.text}
             </div>
         </>
     );
 };
-
-export default AlertComponent;
+export default Alert;

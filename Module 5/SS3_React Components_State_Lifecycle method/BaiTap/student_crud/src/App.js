@@ -45,7 +45,7 @@ class App extends Component {
             if (this.state.indexSelected > -1) {
                 //Tạo mảng mới
                 const arr = [...this.state.studentList].map((elm, index) => {
-                    //Nếu vị trí trong form=== vị trí hiện tại
+                    //Nếu vị trí trong form === vị trí hiện tại
                     if (index === this.state.indexSelected) {
                         //trả v ds trong form
                         return {...this.state.form}

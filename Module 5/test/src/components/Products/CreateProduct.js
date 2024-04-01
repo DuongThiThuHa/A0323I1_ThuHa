@@ -1,98 +1,86 @@
-import React, {useEffect, useState} from "react";
-import {useNavigate} from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import * as Yup from 'yup';
-import * as typeBookService from "../Service/TypeBookService";
-import {toast} from "react-toastify";
-import * as bookService from "../Service/BookService";
-import {ErrorMessage, Field, Form, Formik} from "formik";
-import {type} from "@testing-library/user-event/dist/type";
+import * as typeProductService from "../Service/ProductService";
+import * as productService from "../Service/ProductService";
+import { toast } from "react-toastify";
+import { ErrorMessage, Field, Form, Formik } from "formik";
 
-function CreateBook() {
+function CreateProduct() {
     const navigate = useNavigate();
-    const [typeBook, setTypeBook] = useState();
-    const book = {
-        id: "",
+    const [type, setType] = useState([]);
+    const initialValues = {
         name: "",
-        author: "",
+        type: "",
+        price: "",
         quantity: "",
-        type: ""
-    }
+        date: "",
+        desc: ""
+    };
 
-
-    const validate = Yup.object().shape({
-        name: Yup.string()
-            .required("Name not null"),
-        author: Yup.string()
-            .required("Author not null"),
+    const validationProduct = Yup.object().shape({
+        name: Yup.string().required("Name not null"),
+        price: Yup.number()
+            .required("Price not null")
+            .min(0, "Price must be greater than or equal to 0")
+            .max(10000000, "Price must be less than or equal to 10000000"),
         quantity: Yup.number()
-            .min(0, "Quantity must not be less than 0 ")
-            .max(100, "Quantity must not be than 100")
-            .required("Quantity not null"),
-        type: Yup.string()
-            .required("Type not null")
+            .required("Quantity not null")
+            .min(0, "Quantity must be greater than or equal to 0")
+            .max(1000, "Quantity must be less than or equal to 1000"),
+        date: Yup.date().required("Date not null"),
     });
 
     useEffect(() => {
-        getAllTypeBook();
+        getAllType();
     }, []);
 
-    const getAllTypeBook = async () => {
-        const temp = await typeBookService.getAll();
-        setTypeBook(temp);
-        alert(temp);
-    }
-
-
-    const addNewBook = async (value) => {
+    const getAllType = async () => {
         try {
-            console.log(value);
-            value.id = +value.id;
-            value.name = value.name;
-            value.author = value.author;
-            value.quantity = +value.quantity;
-            await bookService.add(value);
-            toast.success("Add success!");
-            navigate("/book");
+            const temp = await typeProductService.getAll();
+            setType(temp);
         } catch (error) {
-            console.log()("Error new add book ", error);
-            toast.error("Error add book");
+            console.error("Error fetching types:", error);
         }
-    }
+    };
 
-    if (!typeBook) return null;
+    const addNewProduct = async (values) => {
+            await productService.add(values);
+            toast.success("Success!");
+            navigate("/product");
+    };
 
     return (
-        <>
-            <Formik initialValues={book} onSubmit={addNewBook} validationSchema={validate}>
-                <Form>
-                    Name:
-                    <Field name="name"/>
-                    <ErrorMessage name="id" component="span"/>
+        <Formik initialValues={initialValues} onSubmit={addNewProduct} validationSchema={validationProduct}>
+            <Form>
+                Name: <Field name="name" />
+                <ErrorMessage name="name" component="p" />
 
-                    Author:
-                    <Field name="author"/>
-                    <ErrorMessage name="author" component="span"/>
+                Type:
+                <Field as="select" name="type">
+                    <option value="" disabled>--Select type--</option>
+                    {type.map((a) => (
+                        <option value={a.id} key={a.id}>{a.typeProduct}</option>
+                    ))}
+                </Field>
+                <ErrorMessage name="type" component="p" />
 
-                    Quantity:
-                    <Field name="quantity"/>
-                    <ErrorMessage name="quantity" component="span"/>
+                Price: <Field name="price" />
+                <ErrorMessage name="price" component="p" />
 
-                    Type:
-                    <Field as="select" name="typeBook">
-                        <option value="" selected disabled>--Select Type Book--</option>
-                        {
-                            type.map(type => (
-                                <option value={type.typeBook} key={type.id}>{type.typeBook} </option>
-                            ))
-                        }
-                    </Field>
-                    <ErrorMessage name="type" component="span"></ErrorMessage>
+                Quantity: <Field name="quantity" />
+                <ErrorMessage name="quantity" component="p" />
 
-                    <button type="submit">Add a book</button>
-                </Form>
-            </Formik>
-        </>
-    )
+                Date: <Field type="date" name="date" />
+                <ErrorMessage name="date" component="p" />
+
+                Desc: <Field name="desc" />
+                <ErrorMessage name="desc" component="p" />
+
+                <button type="submit">Add a product</button>
+            </Form>
+        </Formik>
+    );
 }
 
-export default CreateBook;
+export default CreateProduct;

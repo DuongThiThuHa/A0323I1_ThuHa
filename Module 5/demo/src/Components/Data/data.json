@@ -1,0 +1,50 @@
+{
+  "students": [
+    {
+      "id": 2,
+      "name": "Yen Nhi",
+      "classroom": "A03",
+      "age": "24",
+      "address": "Da Nang",
+      "gender": "Nu"
+    },
+    {
+      "id": 4,
+      "name": "Binh Minh",
+      "classroom": "A04",
+      "age": 18,
+      "address": "Sai Gon",
+      "gender": "Nu"
+    },
+    {
+      "id": 5,
+      "name": "Dương Thị Thu Hà",
+      "classroom": "A04",
+      "age": 24,
+      "address": "hue",
+      "gender": "Nu"
+    },
+    {
+      "id": 6,
+      "name": "en map",
+      "classroom": "A03",
+      "age": 23,
+      "address": "dn",
+      "gender": "nu"
+    }
+  ],
+  "classroom": [
+    {
+      "id": 1,
+      "nameClass": "A03"
+    },
+    {
+      "id": 1,
+      "nameClass": "A04"
+    },
+    {
+      "id": 1,
+      "nameClass": "A05"
+    }
+  ]
+}

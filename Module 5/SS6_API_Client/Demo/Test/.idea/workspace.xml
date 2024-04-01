@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="04604164-28a6-44ac-b321-84f74f709efc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/BaiTap/bt/src/Components/Alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/BaiTap/bt/src/Components/Caculator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/th/src/components/AddComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/th/src/components/Hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/th/src/components/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/th/src/components/Welcome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SS4_Hook/ThucHanh/hookcustom/src/component/Clock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SS4_Hook/ThucHanh/hookcustom/src/hook/UseClock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SS4_Hook/ThucHanh/useeffect/src/components/Selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SS4_Hook/ThucHanh/usestate/src/components/Counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module 4/SS1_Spring MVC/Thuc_Hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module 4/SS1_Spring MVC/Thuc_Hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module 4/SS5_CSDL_ORM/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module 4/SS5_CSDL_ORM/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/.idea/browers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/browers/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/.idea/loggin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/loggin/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/.idea/profilecard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/.idea/profilecard.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/profilecard/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/.idea/students.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/BaiTap/students/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/.idea/fruit.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/fruit/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/.idea/name.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/name/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/.idea/time.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS2_ReactJS_JSX/ThucHanh/time/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/BaiTap/calculator/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/BaiTap/calculator/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/BaiTap/student_crud/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/BaiTap/student_crud/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/BaiTap/student_crud/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/.idea/annosion.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/src/Hello.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/annosion/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/.idea/backgrounds.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/backgrounds/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/.idea/check.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/src/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/check/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/.idea/classcomponents.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/src/components/AddComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/classcomponents/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/.idea/count.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/count/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/.idea/function.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/src/components/AddComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/function/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/.idea/props.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/src/components/Welcome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/ThucHanh/props/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2cgEB7693JZXd9WCkfkhXtUCywA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/CodeGym/Assignments/Module 5/SS_API_Client/Demo/Test",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04604164-28a6-44ac-b321-84f74f709efc" name="Changes" comment="" />
+      <created>1708524682922</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708524682922</updated>
+      <workItem from="1708524683962" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

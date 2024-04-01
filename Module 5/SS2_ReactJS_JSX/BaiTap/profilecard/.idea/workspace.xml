@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="41227484-df0a-45c6-b201-9f60ad2df1df" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../SS4_Hook/ThucHanh/hookcustom/src/component/Clock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SS4_Hook/ThucHanh/hookcustom/src/hook/UseClock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SS4_Hook/ThucHanh/useeffect/src/components/Selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SS4_Hook/ThucHanh/usestate/src/components/Counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module 4/SS1_Spring MVC/Thuc_Hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module 4/SS1_Spring MVC/Thuc_Hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module 4/SS5_CSDL_ORM/thuc_hanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module 4/SS5_CSDL_ORM/thuc_hanh/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/.idea/browers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../browers/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/.idea/loggin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loggin/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/profilecard.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/.idea/students.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../students/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/.idea/fruit.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/fruit/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/.idea/name.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/name/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/.idea/time.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanh/time/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/BaiTap/student_crud/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/BaiTap/student_crud/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SS3_React Components_State_Lifecycle method/BaiTap/student_crud/src/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2caYZIe0QTOaOq7CKuygyBlk7WT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/CodeGym/Assignments/Module 5/SS3_React Components_State_Lifecycle method/ThucHanh/th",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-7d648f2c" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41227484-df0a-45c6-b201-9f60ad2df1df" name="Changes" comment="" />
+      <created>1708351213883</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708351213883</updated>
+      <workItem from="1708351219748" duration="222000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
