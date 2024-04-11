@@ -4,6 +4,16 @@ export const api = axios.create({
     baseURL: "http://localhost:8443"
 })
 
+// Header
+// export const getHeader = () => {
+//     const token = localStorage.getItem("token")
+//     return {
+//         Authorization: `Bearer ${token}`,
+//         "Content-Type": "application/json"
+//     }
+// }
+
+// Add room
 export async function addRoom(photo, roomType, roomPrice) {
     const formData = new FormData();
     formData.append("photo", photo)
@@ -20,6 +30,7 @@ export async function addRoom(photo, roomType, roomPrice) {
     }
 }
 
+// Type Room
 export async function getRoomTypes() {
     try {
         const response = await api.get("/rooms/room/roomTypes");
@@ -28,6 +39,8 @@ export async function getRoomTypes() {
         error.message
     }
 }
+
+// Get all room
 export async function getAllRooms(){
     try{
         const result = await  api.get("/rooms/allRooms");
@@ -36,3 +49,16 @@ export async function getAllRooms(){
         throw new Error("Error fetching rooms!")
     }
 }
+
+// Delete Room
+export async function deleteRoom(roomId){
+    try {
+        const result = await api.delete(`/room/delete/room/${roomId}`, {
+            headers: getHeader()
+        })
+        return result.data
+    } catch (error){
+        throw new Error(`Error deleting room ${error.message}`)
+    }
+}
+
